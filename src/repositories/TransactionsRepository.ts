@@ -20,12 +20,12 @@ class TransactionsRepository {
   }
 
   public all(): Transaction[] {
-    // TODO
+    return this.transactions;
   }
 
-  public getBalance(): Balance {
-    // TODO
-  }
+  // public getBalance(): Balance {
+  //   //TODO
+  // }
 
   public create({ title, value, type }: CreateTransaction): Transaction {
     const transaction = new Transaction({ title, value, type });
