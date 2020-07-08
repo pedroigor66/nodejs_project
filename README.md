@@ -3,7 +3,7 @@
 - [Main libs and techs used](#-main-libs-and-techs-used)
 - [Downloading and setting up the project](#-downloading-and-setting-up-the-project)
 - [Expected routes](#-expected-routes)
-- [License & copyright](#-license-&-copyright)
+- [License & copyright](#license-&-copyright)
 
 ## 📄 About
 
@@ -21,7 +21,7 @@ The project was developed using the following techs:
 
 ---
 
-## Downloading and setting up the project
+## 🔧 Downloading and setting up the project
 
 Simply clone this template or download it to your device and run the command **yarn** on your terminal to install all required dependencies.
 To make sure erything is running properly, run **yarn test**.
@@ -30,7 +30,7 @@ To test the routes, I recommend using the [insomnia](https://insomnia.rest/) app
 
 ---
 
-## Expected routes
+## ↔ Expected routes
 
 - `POST /transactions`: This route should receive a `title`, `value` and `type` inside the requistion body, note that `type` is the transaction type. The transaction type `income` should be used for deposits and `outcome` for withdraws. When storing a new transaction, it should be submitted in the following format.
 
